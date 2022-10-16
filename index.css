@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Inter' !important;
+}
+
+.nav-link{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: -0.1px;
+color: #0D0A19;
+margin-left: 20px;
+}
+
+.SignUp{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 21px;
+letter-spacing: -0.1px;
+color: #9A9EA7;
+}
+
+.SignUp img{
+background: #F5F6F7;
+border-radius: 10px;
+height: 25px;
+width: 30px;
+}
+
+.section1{
+    background-image: url('./img/Rectangle.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 560px;
+}
+
+.section1 .container h1{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 74px;
+padding-top: 130px;
+text-align: center;
+letter-spacing: -0.304762px;
+color: #FFFFFF;
+}
+
+.section1 .container p{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 27px;
+text-align: center;
+color: #FFFFFF;
+}
+
+.TopFooterSection{
+background: #FFFFFF;
+box-shadow: 0px 3px 4px rgba(153, 155, 168, 0.15);
+border-radius: 8px;
+max-width: 945px;
+height: 80px;
+position: absolute;
+margin: 0px auto;
+bottom: -40px;
+left: 50%;
+z-index: 99;
+width: 98%;
+transform: translateX(-50%);
+}
+
+.TopFooterSection p{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px !important;
+line-height: 18px;
+margin-left: 10px;
+letter-spacing: -0.1px;
+color: #9A9EA7 !important;
+}
+.form-select{
+border: none;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 21px;
+margin-top: -10px !important;
+letter-spacing: -0.1px;
+color: #0D0A19;
+}
+.withoutP{
+    margin-top: 35px;
+}
+.searchBtn{
+background: #7963F0;
+border-radius: 10px;
+color: #FFFFFF;
+padding: 7px 15px;
+font-weight: 700;
+}
+.searchBtn:hover{
+background: black;
+border-radius: 10px;
+color: #FFFFFF;
+font-weight: 700;
+}
+.searchBtn img{
+    margin-top: -3px;
+}
+.TopFooterSection .borderRight{
+   border-right: 2px solid #EDE8E9;
+   height: 40px;
+   margin-top: 20px;
+}
+.someMargin{
+    margin-top: 30px;
+}
+
+@media all and (max-width: 768px){
+    .section1 .container h1{
+        font-size: 38px;
+    }
+    .section1 .container p{
+        font-size: 16px;
+        text-align: start;
+    }
+    .TopFooterSection{
+        height: 100px;
+    }
+    .searchBtn{
+        width: 95%;
+        padding: 17px 0px;
+    }
+}
